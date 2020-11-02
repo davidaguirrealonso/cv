@@ -1,111 +1,65 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>David's Personal Site</title>
-  <!-- unicode table para el tipo de caracteres y poner emojis en html-->
-  <!-- Press the WIN + . (full stop) keyboard shortcut.-->
+  <title>David Aguirre Alonso</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing=20>
-    <tr>
-      <!-- <img src="https://media-exp1.licdn.com/dms/image/C4D03AQF7-5Oj07GMjQ/profile-displayphoto-shrink_400_400/0?e=1609372800&v=beta&t=NeY7RBonv6BeLLoeD7v4MuoFMPuZ-ENIpINrL2rpgPU" alt="David Profile Picture"> -->
-      <td><img src="images/David.png" alt="David Profile Picture"></td>
-      <td>
-        <h1>David Aguirre Alonso</h1>
-        <h2>Mechanical Engineer</h2>
-        <p>
-          Cofounder of <a href="https://www.datazen.es">Datazen big data SL</a>
-        </p>
-      </td>
-    </tr>
-  </table>
-  <p>
-    <i>Coding developments</i>
-  </p>
-  <h3><em>Grew up your business</em></h3><!-- mejor usar <em> en lugar de <i>, ambos sirven para cursiva -->
-  <hr size=2 noshade>
-  <h3>Services</h3>
-  <ul>
-    <li>Business Intelligence</li>
-    <li>Analytics</li>
-  </ul>
-  <hr size=1 noshade>
-  <a href="products.html">Products</a>
-  <br>
-  <a href="contact.html">Contact</a>
+  <!-- <div class="header">
+    <img class="logo" src="images/Logo.png" alt="">
+  </div> -->
+  <div class="top-container">
+    <img class="cloud1" src="images/cloud.png" alt="">
+    <h1>Mi nombre es David</h1>
+    <h2>Ingeniero Mecá<span class="sep">nico</span> y Pro<span class="sep">gramador</span></h2>
+    <img class="mountain" src="images/mountain.png" alt="">
+    <img class="cloud2" src="images/cloud.png" alt="">
+  </div>
   <hr>
-  <table>
-    <thead>
-      <tr>
-        <th>My travel</th>
-      </tr>
-      <tr>
-        <th>Date</th>
-        <th>Were i was</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2015-2018</td>
-        <td>UC3M</td>
-      </tr>
-      <tr>
-        <td>2018-2020</td>
-        <td>RT</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td>David Aguirre</td>
-      </tr>
-    </tfoot>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profileimg" src="https://www.flaticon.com/svg/static/icons/svg/3135/3135715.svg" alt="">
+      <h2>Hello.</h2>
+      <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="contentimg1" src="https://media3.giphy.com/media/l0He4fJxPCbfqv7Xi/200.webp?cid=ecf05e47p16roqhsrurr110l5dupvnc4kuao7e66nktbm3rc&rid=200.webp" alt />
+        <h3>Lorem & Ipsum</h3>
+        <p class="code-skills-description">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+      </div>
+      <div class="skill-row">
+        <img class="contentimg2" src="https://www.flaticon.com/svg/static/icons/svg/74/74873.svg" alt="">
+        <h3>Lorem Ipsum Dolor</h3>
+        <p class="code-skills-description">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+  </div>
 
-  </table cellspacing=10>
-  <hr>
-  <h3>Skills</h3>
-  <table>
-    <thead>
-      <tr>
-        <th align=center colspan="2">My skills map</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <table cellspacing=10>
-            <tbody>
-              <tr>
-                <td>Web development</td>
-                <td>⭐⭐⭐</td>
-              </tr>
-              <tr>
-                <td>Power Bi</td>
-                <td>⭐⭐⭐⭐</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tbody>
-              <tr>
-                <td>App development</td>
-                <td>⭐⭐</td>
-              </tr>
-              <tr>
-                <td>Excel</td>
-                <td>⭐⭐⭐⭐⭐</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="footer-c">© 2018 David Aguirre Alonso.</p>
+  </div>
+
+
+  </div>
 </body>
 
 </html>

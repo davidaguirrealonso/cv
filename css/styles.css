@@ -1,0 +1,180 @@
+body {
+  text-align: center;
+  font-family: verdana, sans-serif
+}
+
+h1 {
+  color: #66BFBF;
+  /*100%=16px por lo tanto para conseguir 90px en % debemos aplicar 90/16*100=562.5%
+  1em=16px por lo tanto para conseguir 90px en % debemos aplicar 90/16*1=5.625em*/
+  font-size: 2.5rem; /*recomendable rem porque no le afectan los tamaños comunes
+    en % o em de body y sin embargo sigue siendo adaptable. 1rem=1em.*/
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Itim', cursive;
+}
+
+h2{
+  color: #66BFBF;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+}
+
+img {
+  display: inline-block;
+}
+
+hr{
+  background-color: none;
+  border-color: #EAF6F6;
+  border-style: dotted none none none;
+  border-width: 7px;
+  width: 5%;
+}
+
+/*div{
+  background-color: #E1F2F8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 400px;
+  width: 600px;
+  border-color: black;
+  border-width: 5px 10px 5px 10px;
+  padding: 20px;
+  margin: 20px;
+}*/
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: #2E6CA1;
+  border-width: 50px;
+  border-color: black;
+  position: fixed;
+  display: block;
+}
+
+.logo {
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.top-container {
+  position: relative;
+  background-color: #E1F2F8;
+  /*height: 400px;
+  width: 100%;*/
+  border: solid;
+  border-color: #E7F9FF;
+  border-width: 5px 10px 5px 10px;
+  padding-top: 100px;
+  margin: 0 auto 0 auto;
+}
+
+.sep{
+  color: grey;
+}
+.cloud1 {
+  position: absolute;
+  right: 5%;
+  top: 15%;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 10%;
+  bottom: 50%;
+  /*width: 150px;
+  top: 200px;
+  left: 400px;*/
+}
+
+.mountain {
+  /*height: 200px;
+  top: 150px;
+  left: 175px;*/
+}
+
+.middle-container {
+  /*background-color: red;
+  height: 200px;
+  width: 200px;
+  border: solid;
+  border-width: 20px;
+  border-color: #FF917E;
+  padding: 10px;*/
+  /*margin-left: 260px;*/
+  /*margin: 0 auto 0 auto;*/
+}
+
+.profileimg{
+  height: 100px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contentimg1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contentimg2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+/*.code-skills-description{
+clear: both;
+}*//*evita que el texto se disponga con contenido a su derecha, izquierda o ambas*/
+
+.bottom-container {
+  padding: 50px;
+  margin: 50px auto auto auto;
+  background-color: #66BFBF;
+  height: 100px;
+  /*width: 200px;
+  border: solid;
+  border-width: 10px;
+  border-color: #86C7FF;
+  padding: 20px;*/
+  /*margin-left: 520px;*/
+  /*margin: 0 auto 0 auto;*/
+}
+
+.btn{
+  color: white;
+  background: linear-gradient(to bottom, #66BFBF, #11999E);
+  /*background-color: #66BFBF;*/
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: linear-gradient(to bottom, #11999E, #66BFBF);
+}
+
+.footer-link{
+  margin: 10px 5px auto 5px;
+  color: #11999E;
+  text-decoration: none;
+}
+
+.footer-c{
+  color: #EAF6F6;
+  line-height: 4;
+}
